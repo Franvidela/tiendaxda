@@ -1,0 +1,49 @@
+
+
+
+#texto h1 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#texto p {
+   
+    color: $granite-gray;
+}
+
+
+#caja2 h2 {
+    font-family: 'Old Standard TT', serif;
+}
+
+#caja2 label {
+    font-family: 'Old Standard TT', serif;
+}
+
+.cajanewsletter {
+    border-radius: 5%;
+}
+
+
+
+#caja3 p {
+    font-family: 'Old Standard TT', serif;
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+    
+    
+   
+}
+
+#caja4 {
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 3s;
+}
+
+/* Transición de imagen a blanco y negro */
+#caja4:hover {
+    filter: grayscale(100%);
+}

@@ -1,0 +1,32 @@
+nav {
+    padding: 0 !important;
+
+    .container-fluid {
+        padding-left: 0 !important;
+    }
+
+    svg {
+        width: 5%;
+        height: 5%;
+    }
+
+    /* Cambio de color de logo SVG a opuestos */
+    svg:hover {
+        .st0 {
+            fill: $white;
+        }
+    
+        .st1 {
+            fill: $smoky-black;
+        }
+    }
+
+    #navbarSupportedContent {
+        font-weight: 700;
+    
+        a {
+            color: $smoky-black;
+            margin-right: 50px;
+        }
+    }
+}
